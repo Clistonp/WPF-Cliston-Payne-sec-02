@@ -56,3 +56,4 @@ console.log(priceOfItemWithTax) //Total amount you will pay after the discount i
 //The total price altogether is $385.20
 
 
+
