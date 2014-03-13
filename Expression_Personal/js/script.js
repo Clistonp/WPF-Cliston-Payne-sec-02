@@ -4,3 +4,5 @@
 var bagsOfDogFoodPerWeek = 1;
 var weeksInAYear = 52;
 var costPerBagOfFood = 35.96
+var totalCostBudgeted = weeksInAYear * costPerBagOfFood * bagsOfDogFoodPerWeek;
+console.log(totalCostBudgeted)
