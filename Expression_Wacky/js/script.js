@@ -7,5 +7,5 @@ var diameter = prompt("What is the diameter of your pipe inches?");
 var radius = diameter / 2;
 var pie = 3.14;
 var volume = pie * (radius * radius) * height ;
-alert("The volume of your piece of pipe is " + volume "inches");
+alert("The volume of your piece of pipe is " + volume);
 
