@@ -1,9 +1,9 @@
 //Cliston Payne 03/13/14 Expressions_Personal sec 02
 
 //Budget for dog food for one year 
-var bagsOfDogFoodPerWeek = 1; //Place the value of how many bags of dog food you purchase perweeek
-var weeksInAYear = 52; // place the number of weeks per year or any value of weeks you want to budget for.
-var costPerBagOfFood = 35.96; // places the value of dog food perbag.
+var bagsOfDogFoodPerWeek = 4; //Place the value of how many bags of dog food you purchase perweeek
+var weeksInAYear = 90; // place the number of weeks per year or any value of weeks you want to budget for.
+var costPerBagOfFood = 26.52; // places the value of dog food perbag.
 var totalCostBudgeted = weeksInAYear * costPerBagOfFood * bagsOfDogFoodPerWeek; // formula for generating your cost of dog food for your givin time
 
 console.log(totalCostBudgeted) //Displays total Cost of food in the console of your browser // Disabled console.log for the prompt menu to budget your own values
