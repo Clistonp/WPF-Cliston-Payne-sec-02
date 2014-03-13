@@ -8,5 +8,5 @@ var radius = diameter / 2; // formula to find the radius of a circle
 var pie = 3.14; // the representation for pie // pie is a repeating number but for the computers sake we are just using 3.14
 var volume = pie * (radius * radius) * height ; // formuala that will give us the volume of a cylinder
 alert("The volume of your piece of pipe is " + volume + " inches");// alert box that tells us the volume of our peice of pipe
-alert("Great job! Now get back to work.")
+alert("Great job! Now get back to work."); //Just being Wacky
 
