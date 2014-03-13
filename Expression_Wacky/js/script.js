@@ -5,5 +5,8 @@ prompt("You are a plumber and need to find the volume of a piece of pipe(Cylinde
 var height = prompt("How long is your piece of pipe?");
 var diameter = prompt("What is the diameter of your pipe?");
 var radius = diameter / 2;
+var pie = 3.14;
+var volume = radius * radius;
 
 
+console.log(volume);
