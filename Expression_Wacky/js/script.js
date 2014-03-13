@@ -6,7 +6,6 @@ var height = prompt("How long is your piece of pipe?");
 var diameter = prompt("What is the diameter of your pipe?");
 var radius = diameter / 2;
 var pie = 3.14;
-var volume = radius * radius;
 
 
 console.log(volume);
