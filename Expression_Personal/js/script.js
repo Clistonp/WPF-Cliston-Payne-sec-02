@@ -11,3 +11,4 @@ var totalCostBudgeted = weeksInAYear * costPerBagOfFood * bagsOfDogFoodPerWeek; 
 prompt(bagsOfDogFoodPerWeek "How many bags of dog food do you go through weekly?");
 prompt(weeksInAYear "How many weeks are in a year?");
 prompt(costPerBagOfFood "How much is one bag of dog food?")
+alert(totalCostBudgeted)
