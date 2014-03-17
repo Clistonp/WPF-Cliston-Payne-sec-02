@@ -20,3 +20,12 @@ if(compsWeight >= 250){
 var gasEffic = 16; //The cars gas efficiency in mpg
 var fuelLeft = .5; //how much fuel is left in the car in percent
 var carFuelCapacity = 30; //how many gallons of fuel the car can hold at max capacity 
+var milesToNextFuel = 200; //This is the miles left to travel till next fuel station
+
+if(carFuelCapacity * fuelLeft * gasEffic > milesToNextFuel){
+	//if statement that tells us if we have enough fuel to make it to the next fill Station
+	console.log("Continue on wise traveler!");
+}else{
+	//Else statement that warns us if we need to stop now and get fuel or sleep with the Vultures tonight
+	console.log("Stop now or Sleep in the dessert tonight!");
+}
