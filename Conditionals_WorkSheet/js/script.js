@@ -29,3 +29,6 @@ if(carFuelCapacity * fuelLeft * gasEffic > milesToNextFuel){
 	//Else statement that warns us if we need to stop now and get fuel or sleep with the Vultures tonight
 	console.log("Stop now or Sleep in the dessert tonight!");
 }
+
+//Group 2 Multiple Results
+//Check the login
