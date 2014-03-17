@@ -32,3 +32,9 @@ if(carFuelCapacity * fuelLeft * gasEffic > milesToNextFuel){
 
 //Group 2 Multiple Results
 //Check the login
+
+var userName = "Sanza";
+var passWord = "radio";
+
+if(userName + passWord != userName + passWord);
+	console.log("Welcome");
