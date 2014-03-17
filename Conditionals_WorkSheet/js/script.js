@@ -37,13 +37,12 @@ var userName = "Sanza";
 var passWord = "radio";
 
 if(userName && passWord === userName && passWord){
-	console.log("Welcome" + userName + "!");
+	console.log("Welcome," + userName + "!");
 
-}else if(userName != userName){
-	console.log("Username is incorrect please try again.");
-}else if(passWord != passWord){
-	console.log("Pass word incorrect please try again.");
-
-
-
+}else if(userName != Sanza){
+	console.log("User not found. Try again.");
+}else if(passWord != radio){
+	console.log("Password does not match our records.");
+}else{
+	console.log("Please try again.");
 }
