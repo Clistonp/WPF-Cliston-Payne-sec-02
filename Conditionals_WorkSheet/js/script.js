@@ -17,3 +17,6 @@ if(compsWeight >= 250){
 
 //Group 1 Expressions with Conditionals
 //Last Chance for Gas!
+var gasEffic = 16; //The cars gas efficiency in mpg
+var fuelLeft = .5; //how much fuel is left in the car in percent
+var carFuelCapacity = 30; //how many gallons of fuel the car can hold at max capacity 
