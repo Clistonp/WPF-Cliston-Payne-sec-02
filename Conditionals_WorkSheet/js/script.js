@@ -36,5 +36,14 @@ if(carFuelCapacity * fuelLeft * gasEffic > milesToNextFuel){
 var userName = "Sanza";
 var passWord = "radio";
 
-if(userName + passWord != userName + passWord);
-	console.log("Welcome");
+if(userName && passWord === userName && passWord){
+	console.log("Welcome" + userName + "!");
+
+}else if(userName != userName){
+	console.log("Username is incorrect please try again.");
+}else if(passWord != passWord){
+	console.log("Pass word incorrect please try again.");
+
+
+
+}
