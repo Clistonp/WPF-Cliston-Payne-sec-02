@@ -33,21 +33,21 @@ if(carFuelCapacity * fuelLeft * gasEffic > milesToNextFuel){
 //Group 2 Multiple Results
 //Check the login
 
-var userName = (prompt("Please enter your Username."));
-var passWord = (prompt("please enter your password."));
-var myName = "Sanza"
-var myPassword = "radio"
-if(userName === myName ){
+var userName = (prompt("Please enter your Username."));//Variable that gives a prompt asking for the users name
+var passWord = (prompt("please enter your password."));//Variable that gives a prompt asking for the users password
+var myName = "Sanza"// variable that tells the computer what the users name is 
+var myPassword = "radio"//variable that tells the computer what the users password is 
+if(userName === myName ){  
 }else{
-	console.log("Invalid Username please try again.")
+	console.log("Invalid Username please try again.")// if statement saying that if the usrr name is not the same as my name to go ahead and display the else statement 
 }
 if(passWord === myPassword){
 
 }else{
-	console.log("Invalid Password please try again.")
+	console.log("Invalid Password please try again.")//if statement that ask if the users password is the same as my password and if not runs a else statement to let the user know they have the wrong password
 }
 if(userName + passWord === myName + myPassword){
-	console.log("Welcome," + myName + "!")
+	console.log("Welcome," + myName + "!")  // if statement that checks to see if the username and password are the same as the myNAme and myPassword if they are it runs the console to say welcome to the user
 }
 
 
