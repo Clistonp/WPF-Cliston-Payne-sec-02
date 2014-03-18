@@ -33,16 +33,17 @@ if(carFuelCapacity * fuelLeft * gasEffic > milesToNextFuel){
 //Group 2 Multiple Results
 //Check the login
 
-var userName = "Sanza";
-var passWord = "radio";
+var userName = "Sanza";(prompt("Please enter your Username."));
+var passWord = "radio";(prompt("please enter your password."));
 
-if(userName && passWord === userName && passWord){
+if(userName + passWord === "Sanza" + "radio");{
 	console.log("Welcome," + userName + "!");
 
-}else if(userName != Sanza){
-	console.log("User not found. Try again.");
-}else if(passWord != radio){
-	console.log("Password does not match our records.");
-}else{
-	console.log("Please try again.");
+}if(userName != "Sanza");{
+	console.log("Wrong Username Please try again.");
+}if (passWord != "radio");{
+	console.log("Password not found please try again.");
 }
+
+
+
