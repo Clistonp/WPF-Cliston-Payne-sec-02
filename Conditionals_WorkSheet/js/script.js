@@ -52,3 +52,25 @@ if(userName + passWord === myName + myPassword){
 
 
 
+//Group 3:Multiple Conditions
+//Tire Pressure I
+
+var tirePresDrFront = (prompt("Please enter the tire pressure of your Driver front tire."));
+var tirePresDrRear = (prompt("Please enter the tire pressure of your Driver rear."));
+var tirePresPassFront = (prompt("Please enter the tire pressure of your Passenger Front."));
+var tirePresPassRear = (prompt("Please enter the tire pressure of your Passenger Rear."));
+
+if(tirePresDrFront === tirePresPassFront){
+	}else{
+		console.log("Get your tires checked out!");
+	}
+
+if(tirePresDrRear === tirePresPassRear){
+	}else{
+		console.log("Get your tires checked out!");
+	}
+
+if (tirePresPassFront === tirePresDrFront && tirePresPassRear === tirePresDrRear){
+	console.log("The tires pass spec!");
+}
+
