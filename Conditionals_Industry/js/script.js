@@ -5,3 +5,6 @@
 
 var time = (prompt("What time is it?"));
 var rounds;
+
+rounds = (time < 1800 > 0700) ? "Tracers" : "Ball Point";
+console.log(rounds);
