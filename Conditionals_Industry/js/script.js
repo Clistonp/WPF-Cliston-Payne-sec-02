@@ -6,5 +6,5 @@
 var time = (prompt("What time is it?"));
 var rounds;
 
-rounds = (time < 1800 ) ? "Ball Point" : "Tracer" ;
+rounds = ( 1800 < time  &&  0700 > time ) ? "Tracer" : "Ball Point" ;
 console.log(rounds);
