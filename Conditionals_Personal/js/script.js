@@ -8,4 +8,5 @@ var = whatKindOfOilDoYouUse (prompt("Do you use premium or regular oil in your c
 var premium = 5000;
 var regular = 3000:
 var safeMilesBetweenOilChanges = whatKindOfOilDoYouUse 
-if (safeMilesBetweenOilChanges >= milesSinceLastOilChange)
+if (safeMilesBetweenOilChanges >= milesSinceLastOilChange){
+	console.log("You have a few more miles to go before you need to change your oil.")
