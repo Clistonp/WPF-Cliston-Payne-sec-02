@@ -8,3 +8,4 @@ var = whatKindOfOilDoYouUse (prompt("Do you use premium or regular oil in your c
 var premium = 5000;
 var regular = 3000:
 var safeMilesBetweenOilChanges = whatKindOfOilDoYouUse 
+if (safeMilesBetweenOilChanges >= milesSinceLastOilChange)
