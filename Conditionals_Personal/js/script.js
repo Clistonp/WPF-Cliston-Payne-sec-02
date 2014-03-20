@@ -10,4 +10,8 @@ var regular = 3000:
 var safeMilesBetweenOilChanges = whatKindOfOilDoYouUse 
 if (safeMilesBetweenOilChanges >= milesSinceLastOilChange){
 	console.log("You have a few more miles to go before you need to change your oil.")
+if ((premium = whatKindOfOilDoYouUse && milesSinceLastOilChange >= premium) || (regular = whatKindOfOilDoYouUse && milesSinceLastOilChange >= regular)){
+	console.log("You need an oil change!");
+}else{
+	console.log("You have a few more miles to go!");
 }
