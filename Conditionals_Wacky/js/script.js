@@ -15,4 +15,4 @@ else if ((ouncesPerDay >= 25 && ouncesPerDay <= 48) || ( ouncesPerDay >= 96 && o
 }
 else{
 	console.log("Now thats just the right amount of Dew for you!");
-}
+}//else statement that if you are inbetween the givin variables from above
