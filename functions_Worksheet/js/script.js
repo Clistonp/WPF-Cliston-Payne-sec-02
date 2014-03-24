@@ -8,7 +8,7 @@ var circumference = calcCircumference(times, pie, radius); // variable that stor
 console.log("The Circumference of the circle is " + circumference)// displays the answer to the circumference by using ghe console log
 function calcCircumference(times, pie, radius)// creates a function that will run the calculation
 {
-	return times *pie *radius;
+	return times *pie *radius; //saves the value of the circumference
 }
 
 // 
