@@ -3,3 +3,4 @@
 //Calculate the Circumference of a Circle
 var radius = 15;
 var pie = 3.14;
+var times = 2;
