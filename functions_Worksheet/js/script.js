@@ -12,8 +12,8 @@ function calcCircumference(times, pie, radius)// creates a function that will ru
 }
 
 //Stung!
-var stingsPerPound = 8.666666667;
 var victimsWght = 190;// the victims wieght in pounds
+var stingsPerPound = 8.666666667;// the number of stings it takes per pound to kill somthing
 var stingsToKill = calcStingsPerPound(stingsPerPound, victimsWght);
 console.log("It takes " + stingsToKill  + "Bee stings to kill this animal.")
 function calcStingsPerPound(stingsPerPound, victimsWght)
