@@ -4,3 +4,4 @@
 var radius = 15;
 var pie = 3.14;
 var times = 2;
+var circumference = calcCircumference(times, pie, radius);
