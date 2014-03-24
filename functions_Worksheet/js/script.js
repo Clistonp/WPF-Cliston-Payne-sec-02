@@ -18,5 +18,5 @@ var stingsToKill = calcStingsPerPound(stingsPerPound, victimsWght); // var to ca
 console.log("It takes " + stingsToKill  + "Bee stings to kill this animal.")// displays the stings to kill our victim in the console
 function calcStingsPerPound(stingsPerPound, victimsWght)//function that will repeatidly calculate our variables
 {
-	return stingsPerPound * victimsWght;
+	return stingsPerPound * victimsWght;// saves the variable calculated for later 
 } 
