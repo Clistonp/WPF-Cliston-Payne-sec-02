@@ -11,4 +11,6 @@ function calcCircumference(times, pie, radius)// creates a function that will ru
 	return times *pie *radius; //saves the value of the circumference
 }
 
-// 
+//Stung!
+var victimsWght = 190;
+ 
