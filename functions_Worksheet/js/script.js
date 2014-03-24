@@ -2,7 +2,7 @@
 
 //Calculate the Circumference of a Circle
 var radius = 15;// this is the radius of my circle
-var pie = 3.14;
+var pie = 3.14; // this is the value of pie
 var times = 2;
 var circumference = calcCircumference(times, pie, radius);
 console.log("The Circumference of the circle is " + circumference)
