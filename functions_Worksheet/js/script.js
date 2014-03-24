@@ -13,4 +13,5 @@ function calcCircumference(times, pie, radius)// creates a function that will ru
 
 //Stung!
 var victimsWght = 190;
+var stingsPerPound = 8.666666667;
  
