@@ -10,5 +10,6 @@ if (diapersPerDay==null || diapersPerDay==" ")
 }
 else if (!diapersPerDay.matches(alphaExp))
 {
-
+	alert("Please only use numbers.")
+	location.reload(true);
 }
