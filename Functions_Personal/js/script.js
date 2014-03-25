@@ -8,6 +8,7 @@ if (diapersPerDay==null || diapersPerDay==" ")
 	alert("Please enter the number of diapers you use a day!");
 	location.reload(true);
 }
-else if (!diapersPerDay.matches(alphaExp)){
+else if (!diapersPerDay.matches(alphaExp))
+{
 
 }
