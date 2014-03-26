@@ -30,3 +30,4 @@ var totalPerWeek =  dPD * dIW;
 var packsPerWeek =  Math.ceil(totalPerWeek / dPP);
 		
 	return packsPerWeek;
+}
