@@ -1,16 +1,16 @@
 //Cliston Payne Functions_Personal 3/25/14
 
 //Diapers!
-
-var packsPerWeek = calcPacksPerWeek(diapersPerDay, daysInAWeek, diapersPerPack);
-var diapersPerDay = (prompt("How many Diapers do you use a day?", ""));
-var daysInAWeek = (prompt("How many days are in a week?"));
-var diapersPerPack = (prompt("how many diapers are in one container you purchase?"));
+var packs = calcPacksPerWeek(diapersPerDay, daysInAWeek, diapersPerPack);
+var diapersPerDay = (prompt("How many Diapers do you use a day?", ""))
+var daysInAWeek = (prompt("How many days are in a week?"))
+var diapersPerPack = (prompt("how many diapers are in one container you purchase?"))
 function calcPacksPerWeek(diapersPerDay, daysInAWeek, diapersPerPack)
 {
-	
-	return packsPerWeek = (diapersPerDay * daysInAWeek) / diapersPerPack;
-	}
+var packsPerWeek = (diapersPerDay * daysInAWeek) / diapersPerPack;
+
+	return packsPerWeek;
+}
 if (diapersPerDay==null || diapersPerDay==" ")
 {
 	alert("Please enter the number of diapers you use a day!");
@@ -36,5 +36,5 @@ if (diapersPerPack==null || diapersPerPack==" ")
 	console.log(diapersPerPack);
 }
 
-console.log("You must purchase" + packsPerWeek + "packs of diapers a week.");
+console.log("You must purchase" + packs + "packs of diapers a week.");
 
