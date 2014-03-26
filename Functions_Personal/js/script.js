@@ -1,40 +1,32 @@
 //Cliston Payne Functions_Personal 3/25/14
 
 //Diapers!
-var packs = calcPacksPerWeek(diapersPerDay, daysInAWeek, diapersPerPack);
-var diapersPerDay = (prompt("How many Diapers do you use a day?", ""))
-var daysInAWeek = (prompt("How many days are in a week?"))
-var diapersPerPack = (prompt("how many diapers are in one container you purchase?"))
-function calcPacksPerWeek(diapersPerDay, daysInAWeek, diapersPerPack)
-{
-var packsPerWeek = (diapersPerDay * daysInAWeek) / diapersPerPack;
 
-	return packsPerWeek;
-}
-if (diapersPerDay==null || diapersPerDay==" ")
+
+var diapersPerDay = prompt("How many Diapers do you use a day?");
+while (diapersPerDay=="")
 {
 	alert("Please enter the number of diapers you use a day!");
-	location.reload(true);
-}	else
-{
-	console.log(diapersPerDay);
+	diapersPerDay = prompt("How many Diapers do you use a day?")
 }
-if (daysInAWeek==null || daysInAWeek==" ")
+var daysInAWeek = prompt("How many days are in a week?");
+
+while (daysInAWeek=="")
 {
 	alert("please enter the days per week!");
-	location.reload(true);
-} else
-{
-	console.log(daysInAWeek);
+	daysInAWeek = prompt("How many days are in a week?")
 }
-if (diapersPerPack==null || diapersPerPack==" ")
+var diapersPerPack = prompt("How many diapers are in one container you purchase?");	
+while (diapersPerPack=="")
 {
 		alert("Please enter the number of diapers that come in a pack!");
-		location.reload(true);
-} else
+		diapersPerPack = prompt("How many diapers are in one container you purchase?")
+}	
+var packs = calcPacksPerWeek(diapersPerDay, daysInAWeek, diapersPerPack);
+console.log("You must purchase " + packs + " packs of diapers a week.")
+function calcPacksPerWeek(dPD, dIW, dPP)
 {
-	console.log(diapersPerPack);
-}
-
-console.log("You must purchase" + packs + "packs of diapers a week.");
-
+var totalPerWeek =  dPD * dIW;
+var packsPerWeek =  Math.ceil(totalPerWeek / dPP);
+		
+	return packsPerWeek;
