@@ -8,13 +8,20 @@ while (outsideTemp==""){
 	alert("Please enter the temperature outside!");
 	outsideTemp = prompt("How cold is it outside?")
 }
-if (outsideTemp >= 0 && outsideTemp <= 40){
-	console.log("I hope you packed your green Sleeping Bag!");
-}else if (outsideTemp >= 41 && outsideTemp <= 70){
-	console.log("Its still chilly outside go grab your black sleeping bag!")
 
+var bag = calcBagToUse(outsideTemp);
+var bagToUse;
+console.log("Marine Equiped "+ bag + " sleeping bag.")
+function calcBagToUse(oT){
+if (oT <= 40){
+	console.log("I hope you packed your green Sleeping Bag!");
+	bagToUse = ("green");
+}else if (oT >= 41 && oT <= 70){
+	console.log("Its still chilly outside go grab your black sleeping bag!");
+	bagToUse = ("black");
 }else{
-	console.log("Sleep under the stars Marine!")
+	console.log("Sleep under the stars Marine!");
+	bagToUse = ("no");
 }
-console.log()
-function calcSleepBagUse()
+return bagToUse;
+}
