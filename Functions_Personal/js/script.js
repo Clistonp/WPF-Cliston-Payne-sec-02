@@ -8,8 +8,8 @@ var daysInAWeek = (prompt("How many days are in a week?"));
 var diapersPerPack = (prompt("how many diapers are in one container you purchase?"));
 function calcPacksPerWeek(diapersPerDay, daysInAWeek, diapersPerPack)
 {
-	packsPerWeek = (diapersPerDay * daysInAWeek) / diapersPerPack
-	return packsPerWeek;
+	
+	return packsPerWeek = (diapersPerDay * daysInAWeek) / diapersPerPack;
 	}
 if (diapersPerDay==null || diapersPerDay==" ")
 {
