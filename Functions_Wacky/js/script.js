@@ -9,3 +9,5 @@ while (jellyGrab==""){
 	alert("Please enter the amount of Jelly Beans you grabbed!");
 	jellyGrab = prompt("How many Jelly Beans did you grab?");
 }
+var hand = calcJellyInHand(jellyGrab);
+var jellyDunk;
