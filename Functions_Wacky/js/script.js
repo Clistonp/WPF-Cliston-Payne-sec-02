@@ -9,13 +9,13 @@ while (jellyGrab==""){
 	jellyGrab = prompt("How many Jelly Beans did you grab?");
 		}
 
-var calcJellyInHand = function(jellyGrab){
+var calcJellyInHand = function(jG){
 
-hand = (jellyGrab >= 30) ? "Great Job grab a prize off the top Shelf " : "OH, to bad try again when you become a man!";
+hand = (jellyGrab >= 30) ? ("Great Job grab a prize off the top Shelf") : ("OH, to bad try again when you become a man!");
 	return hand;
 
 }
 var hand; 
-var jellyDunk = calcJellyInHand();
+var jellyDunk = calcJellyInHand(jellyGrab);
 console.log(hand);
 
